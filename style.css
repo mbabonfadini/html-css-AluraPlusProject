@@ -31,6 +31,14 @@ body{
     text-align: center;
 }
 
+.container a:hover{
+    color: var(--second-gray);
+}
+
+.container a:active {
+    background-color: var(--white-standart);
+    color: var(--blue-button);
+}
 .container {
     display: grid;
     height: 100vh;
@@ -125,4 +133,37 @@ body{
     line-height: 120%;
     text-align: center;
     color: #FFFFFF;
+}
+
+.rodape {
+    text-align: center;
+}
+
+.rodape__lista {
+    display: flex;
+    justify-content:space-around;
+    margin-top: 3em;
+    margin-bottom: 2em;
+    
+}
+
+.lista_link {
+    display: flex;
+}
+
+.rodape__lista a { 
+    color: var(--white-standart);
+    text-decoration: none;
+}
+
+.rodape__texto {
+    margin-bottom: 2em;
+}
+
+.rodape__lista a:hover { 
+    color: var(--second-gray);
+}
+
+.rodape__lista a:active {
+    color: var(--blue-button);
 }
